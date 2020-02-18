@@ -1,4 +1,3 @@
-<!-- Production version -->
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 
 <style type="text/css">
@@ -95,16 +94,11 @@
         margin:0 auto;
     }
 </style>
-<?php
-error_reporting(E_ALL);
-//session_destroy();
-?>
 
 <div class="container">
     <div class="row calendar-table">
         <?=$calendar?>
     </div>
-    Дані про державні свята та вихідні з <a href="https://zakon.rada.gov.ua/laws/show/322-08#n454">73 статті Кодексу Законів про працю України</a>.
 </div>
 
 
